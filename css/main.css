@@ -12,7 +12,8 @@ body {
 /* sezione header */
 header {
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 .sezione-header{
@@ -30,7 +31,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 1080px;
     height: 70%;
     /* DEBUG */
 }
@@ -99,7 +100,7 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 36%;
+    width: 720px;
     height: 80%;
     color: white;
         /* DEBUG */
@@ -142,7 +143,7 @@ header {
 .container-un-luogo{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 1080px;
     height: 80%;
         /* DEBUG */
     background-color: #fff;
@@ -162,7 +163,7 @@ header {
 .container-dove-trovarsi{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 1080px;
     height: 80%;
     /* DEBUG */
     /* background-color: #fff; */
@@ -182,7 +183,7 @@ header {
 .container-da-pochi{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 1080px;
     height: 80%;
         /* DEBUG */
     background-color: #fff;
@@ -193,9 +194,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: start;
     height: 100%;
     width: 40%;
-    padding-right: 24%;
     /* DEBUG */
     /* background-color: #FEC0CA;
     border-style: dashed; */
@@ -225,11 +226,31 @@ header {
 }
 
 .container-tecnologia-affidabile{
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 1080px;
     height: 90%;
-        /* DEBUG */
-    background-color: #218B21;
-    border-style: dashed;
+    /* DEBUG */
+    /* background-color: #218B21;
+    border-style: dashed; */
+}
+#sfondo-stellato {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+#per-mac2{
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #8EA1E2;
+    border-style: solid;
+    border-color: #8EA1E2;
 }
 
 /* sezione informazioni prima del footer */
@@ -246,7 +267,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 1080px;
     height: 90%;
         /* DEBUG */
     border-style: dashed;
@@ -286,7 +307,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 1080px;
     height: 70%;
     /* DEBUG */
     background-color: #7EFCD4;
