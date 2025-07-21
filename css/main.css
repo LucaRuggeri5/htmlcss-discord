@@ -294,6 +294,13 @@ header {
     width: 20px;
     padding-right: 2px;
 }
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60%;
+    color: white;
+    font-size: medium;
+}
 
 .container-informazioni-varie {
     display: flex;
@@ -321,7 +328,6 @@ ul {
     align-items: center;
     height: 100px;
     padding-bottom: 30px;
-    /* DEBUG */
     background-color: #23272A;
 }
 
