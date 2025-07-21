@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/* sezione header */
+.sezione-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* DEBUG */
+    background-color: #ADD8E7;
+}
+
+.contenitore-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    /* DEBUG */
+}
+
+/* intestazione */
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    width: 20%;
+    height: 100%;
+        /* DEBUG */
+    background-color: #DAA51D;
+    border-style: dashed;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    /* DEBUG */
+    background-color: #DAA51D;
+    border-style: dashed;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    width: 20%;
+    height: 100%;
+        /* DEBUG */
+    background-color: #DAA51D;
+    border-style: dashed;
+}
+
+/* sotto intestazione */
+.sotto-intestazione{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* DEBUG */
+    background-color: #00018B;
+}
+
+.conainer-sotto-intestazione{
+    border-style: dashed;
+    width: 60%;
+    height: 80%;
+        /* DEBUG */
+    background-color: #EF82ED;
+}
+
+/* prima sezione corpo principale */
+.sezione-un-luogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* DEBUG */
+    background-color: #fff;
+}
+
+.container-un-luogo{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+        /* DEBUG */
+    background-color: #fff;
+}
+
+/* seconda sezione corpo principale */
+.sezione-dove-trovarsi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* DEBUG */
+    background-color: #D3D3D3;
+}
+
+.container-dove-trovarsi{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+        /* DEBUG */
+    background-color: #fff;
+}
+
+/* terza sezione corpo principale */
+.sezione-da-pochi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* DEBUG */
+    background-color: #fff;
+}
+
+.container-da-pochi{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+        /* DEBUG */
+    background-color: #fff;
+}
+
+/* regole blocchi immagini e testuali */
+.container-text{
+    height: 100%;
+    width: 35%;
+    /* DEBUG */
+    background-color: #FEC0CA;
+    border-style: dashed;
+}
+
+.container-img{
+    height: 100%;
+    width: 65%;
+    /* DEBUG */
+    background-color: #1E90FF;
+    border-style: dashed;
+}
+
+/* quarta sezione */
+.sezione-tecnologia-affidabile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    /* DEBUG */
+    background-color: #D3D3D3;
+}
+
+.container-tecnologia-affidabile{
+    width: 80%;
+    height: 90%;
+        /* DEBUG */
+    background-color: #218B21;
+    border-style: dashed;
+}
+
+/* sezione informazioni prima del footer */
+.sezione-informazioni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* DEBUG */
+    background-color: #23272A;
+}
+
+.container-informazioni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+        /* DEBUG */
+    border-style: dashed;
+}
+
+/* regole blocchi informazioni */
+.container-principale{
+    height: 100%;
+    width: 35%;
+    /* DEBUG */
+    background-color: #F08180;
+    border-style: dashed;
+}
+
+.container-informazioni-varie{
+    height: 100%;
+    width: 17.5%;
+    /* DEBUG */
+    background-color: #20B3AA;
+    border-style: dashed;
+    border-color: #fff;
+}
+
+/* sezione footer */
+.sezione-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* DEBUG */
+    background-color: #23272A;
+}
+
+.contenitore-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    /* DEBUG */
+    background-color: #7EFCD4;
+}
+
+/* contenuto footer */
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 65%;
+        /* DEBUG */
+    background-color: #FDB6C2;
+    border-style: dashed;
+}
+
+.bottone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    height: 65%;
+    /* DEBUG */
+    background-color: #FDB6C2;
+    border-style: dashed;
+}
