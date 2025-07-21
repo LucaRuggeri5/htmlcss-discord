@@ -5,11 +5,16 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
 }
 
 /* sezione header */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+}
+
 .sezione-header{
     display: flex;
     flex-direction: row;
@@ -17,7 +22,7 @@ body {
     align-items: center;
     height: 50px;
     /* DEBUG */
-    background-color: #ADD8E7;
+    /* background-color: #ADD8E7; */
 }
 
 .contenitore-header{
@@ -38,20 +43,20 @@ body {
     padding-left: 10px;
     width: 20%;
     height: 100%;
-        /* DEBUG */
-    background-color: #DAA51D;
-    border-style: dashed;
+    /* DEBUG */
+    /* background-color: #DAA51D;
+    border-style: dashed; */
 }
 
 .link{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 60%;
     height: 100%;
     /* DEBUG */
-    background-color: #DAA51D;
-    border-style: dashed;
+    /* background-color: #DAA51D;
+    border-style: dashed; */
 }
 
 .login{
@@ -61,27 +66,65 @@ body {
     padding-right: 10px;
     width: 20%;
     height: 100%;
-        /* DEBUG */
-    background-color: #DAA51D;
-    border-style: dashed;
+    /* DEBUG */
+    /* background-color: #DAA51D;
+    border-style: dashed; */
+}
+#login {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
 }
 
-/* sotto intestazione */
-.sotto-intestazione{
+.link-intestazione {
+    color: white;
+}
+
+
+/* jumbo */
+.sotto-jumbo{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 355px;
     /* DEBUG */
-    background-color: #00018B;
+    /* background-color: #00018B; */
 }
 
-.conainer-sotto-intestazione{
-    border-style: dashed;
-    width: 60%;
+.conainer-jumbo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 36%;
     height: 80%;
+    color: white;
         /* DEBUG */
-    background-color: #EF82ED;
+    /* background-color: #EF82ED;
+    border-style: dashed; */
+}
+
+.pulsanti-jumbo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#per-mac{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+}
+#per-browser{
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #23272A;
+    border-style: solid;
+    border-color: #23272A;
 }
 
 /* prima sezione corpo principale */
