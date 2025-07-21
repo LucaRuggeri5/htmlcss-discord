@@ -269,8 +269,8 @@ header {
     align-items: center;
     width: 1080px;
     height: 90%;
-        /* DEBUG */
-    border-style: dashed;
+    /* DEBUG */
+    /* border-style: dashed; */
 }
 
 /* regole blocchi informazioni */
@@ -282,13 +282,22 @@ header {
     border-style: dashed;
 }
 
-.container-informazioni-varie{
+.container-informazioni-varie {
+    display: flex;
+    justify-content: center;
+    color: white;
     height: 100%;
     width: 17.5%;
     /* DEBUG */
-    background-color: #20B3AA;
+    /* background-color: #20B3AA;
     border-style: dashed;
-    border-color: #fff;
+    border-color: #fff; */
+}
+.titolo-lista {
+    color: #8EA1E2;
+}
+ul {
+    list-style-type: none;
 }
 
 /* sezione footer */
